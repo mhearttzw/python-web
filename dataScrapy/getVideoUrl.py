@@ -4,7 +4,7 @@ import requests
 import mysql.connector
 
 database = "182.254.230.24"
-req_url = "http://www.acfun.cn/rank.aspx?channelId=106&range=1&count=30&ext=1&date="
+req_url = "http://www.acfun.cn/rank.aspx?channelId=106&range=3&count=30&ext=1&date="
 res1 = requests.get(req_url)
 res = res1.json()
 print(res[0]['url'])
@@ -28,7 +28,7 @@ for i in range(len(res)):
     # title
     title =  res[i]['title']
     description = res[i]['description']
-    cover = res[i]['userImg']
+    cover = res[i]['titleImg']
     print(res[0])
     # a+= 1
     #################### 连接数据库 #################
@@ -37,9 +37,9 @@ for i in range(len(res)):
     cur = conn.cursor()
     #                      conn.select_db('test')
     # cur.execute('create table video')
-    temp = [str(title), str(cover), str(description), url, size, type_video]
+    temp = [str(title), str(cover), str(description), str(url[0]), str(size), type_video]
     print(temp)
-    add_values = (str(title), str(cover), str(description), str(url), str(size), str(type_video))
+    add_values = (str(title), str(cover), str(description), str(url[0]), str(size), str(type_video))
     print(add_values)
     add_names = ('INSERT INTO fl_video (title, cover, description, url, size, type) '
                  'VALUES (%s,%s,%s,%s,%s,%s)')

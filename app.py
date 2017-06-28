@@ -9,19 +9,17 @@ from models.recommend_list import RecommendList
 app = Flask(__name__)
 api = flask_restful.Api(app)
 
+
 class HelloWorld(flask_restful.Resource):
     def get(self):
         return {'hello': 'world'}
+
 
 api.add_resource(HelloWorld, '/')
 api.add_resource(RecommendList, "/fleeting/api/v1.0/recommendlist")
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
 
 '''
 tasks = [
