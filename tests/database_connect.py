@@ -9,7 +9,8 @@ cur = conn.cursor()
 add_names = 'SELECT * from fl_video '
 cur.execute(add_names)
 data = cur.fetchone()
-print(data)
+for v in data:
+    print(v)
+
 cur.close()
-conn.commit()
 conn.close()

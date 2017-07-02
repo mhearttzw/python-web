@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="MySQL - fleeting@182.254.230.24 [2]" uuid="d3469a95-a49c-41fb-812e-8bed5ad5ca96">
+  <data-source name="MySQL - fleeting@182.254.230.24" uuid="d77853b1-4b70-4ad6-b59c-44cd4e95c245">
     <database-info product="MySQL" version="5.7.18-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -29,16 +29,16 @@
       <table id="8" parent="1" name="fl_history">
         <comment>历史观看记录</comment>
       </table>
-      <table id="9" parent="1" name="fl_user">
+      <table id="9" parent="1" name="fl_test"/>
+      <table id="10" parent="1" name="fl_user">
         <comment>用户信息表</comment>
       </table>
-      <table id="10" parent="1" name="fl_video">
+      <table id="11" parent="1" name="fl_video">
         <comment>记录视频信息</comment>
       </table>
-      <table id="11" parent="1" name="fl_video_category">
+      <table id="12" parent="1" name="fl_video_category">
         <comment>视频所涉及的分类</comment>
       </table>
-      <table id="12" parent="1" name="fl_test"/>
       <column id="13" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
@@ -229,102 +229,103 @@
       </key>
       <column id="52" parent="9" name="id">
         <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-        <sequence-identity>1</sequence-identity>
+        <data-type>varchar(255)</data-type>
       </column>
-      <column id="53" parent="9" name="username">
-        <comment>用户名</comment>
-        <data-type>varchar(45)</data-type>
-      </column>
-      <column id="54" parent="9" name="password">
-        <comment>密码</comment>
-        <data-type>varchar(45)</data-type>
-      </column>
-      <column id="55" parent="9" name="email">
-        <comment>电子邮箱</comment>
-        <data-type>varchar(45)</data-type>
-      </column>
-      <column id="56" parent="9" name="regsiter_time">
-        <comment>注册时间</comment>
-        <data-type>datetime</data-type>
-      </column>
-      <key id="57" parent="9" name="PRIMARY">
+      <key id="53" parent="9" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="58" parent="10" name="id">
+      <column id="54" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="55" parent="10" name="username">
+        <comment>用户名</comment>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="56" parent="10" name="password">
+        <comment>密码</comment>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="57" parent="10" name="email">
+        <comment>电子邮箱</comment>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="58" parent="10" name="regsiter_time">
+        <comment>注册时间</comment>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="59" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="60" parent="11" name="id">
         <comment>视频id</comment>
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="59" parent="10" name="title">
+      <column id="61" parent="11" name="title">
         <comment>标题</comment>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="60" parent="10" name="cover">
+      <column id="62" parent="11" name="cover">
         <mandatory>1</mandatory>
         <data-type>varchar(1023)</data-type>
       </column>
-      <column id="61" parent="10" name="description">
+      <column id="63" parent="11" name="description">
         <comment>描述</comment>
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="62" parent="10" name="info">
+      <column id="64" parent="11" name="info">
         <comment>基本信息</comment>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="63" parent="10" name="url">
+      <column id="65" parent="11" name="url">
         <comment>播放链接</comment>
         <mandatory>1</mandatory>
         <data-type>varchar(10000)</data-type>
       </column>
-      <column id="64" parent="10" name="upload_time">
+      <column id="66" parent="11" name="upload_time">
         <comment>上传or加入数据库的时间</comment>
         <mandatory>1</mandatory>
         <data-type>datetime</data-type>
         <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
       </column>
-      <column id="65" parent="10" name="size">
+      <column id="67" parent="11" name="size">
         <comment>视频大小，以字节byte计</comment>
         <mandatory>1</mandatory>
         <data-type>int(32)</data-type>
       </column>
-      <column id="66" parent="10" name="duration">
+      <column id="68" parent="11" name="duration">
         <comment>播放时长，按秒计</comment>
         <data-type>int(16)</data-type>
       </column>
-      <column id="67" parent="10" name="type">
+      <column id="69" parent="11" name="type">
         <comment>视频类型</comment>
         <mandatory>1</mandatory>
         <data-type>varchar(25)</data-type>
       </column>
-      <key id="68" parent="10" name="PRIMARY">
+      <key id="70" parent="11" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="69" parent="11" name="id">
+      <column id="71" parent="12" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="70" parent="11" name="user_id">
+      <column id="72" parent="12" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="71" parent="11" name="category_id">
+      <column id="73" parent="12" name="category_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
-      </column>
-      <key id="72" parent="11" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="73" parent="12" name="id">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
       </column>
       <key id="74" parent="12" name="PRIMARY">
         <columns>id</columns>

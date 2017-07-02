@@ -3,9 +3,10 @@ import mysql.connector
 import json
 
 
-class RecommendList(Resource):
+class SortedList(Resource):
     LogInfo = {'host': '182.254.230.24', 'user': 'fleeter', 'passwd': 'hust201417',
                'port': 3306, 'charset': 'utf8', 'database': 'fleeting'}
+    type_dict = {"anime": "动画短片", "joy": "娱乐", "music": "音乐"}
     video_list = []
     conn = None
     cur = None
@@ -22,10 +23,12 @@ class RecommendList(Resource):
         self.conn.commit()
         self.conn.close()
 
-    def get(self):
+    def get(self, video_type):
         self.video_list = []
         params = ('id', 'title', 'cover', 'description', 'url', 'size', 'type')
-        self.cur.execute("""SELECT id, title, cover, description, url, size, type FROM fl_video""")
+        query = "SELECT id, title, cover, description, url, size, type FROM fl_video WHERE type = %s"
+        data = (self.type_dict[video_type],)
+        self.cur.execute(query, data)
 
         video_list = self.cur.fetchall()
         for cnt in range(len(video_list)):
@@ -38,5 +41,5 @@ class RecommendList(Resource):
 
 
 if __name__ == '__main__':
-    test = RecommendList().video_list
+    test = SortedList()
     print(test)
