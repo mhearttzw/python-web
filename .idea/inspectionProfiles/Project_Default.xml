@@ -13,6 +13,7 @@
         <list>
           <option value="filter.*" />
           <option value="flask.ext.restful" />
+          <option value="mysql.connector.connection.StandardError" />
         </list>
       </option>
     </inspection_tool>

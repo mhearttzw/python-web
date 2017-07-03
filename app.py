@@ -5,6 +5,7 @@ from flask import make_response
 from flask import request
 
 from models.recommend_list import RecommendList
+from models.sorted_list import SortedList
 
 app = Flask(__name__)
 api = flask_restful.Api(app)
@@ -17,6 +18,8 @@ class HelloWorld(flask_restful.Resource):
 
 api.add_resource(HelloWorld, '/')
 api.add_resource(RecommendList, "/fleeting/api/v1.0/recommendlist")
+
+api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:type>")
 
 if __name__ == '__main__':
     app.run(debug=True)
