@@ -28,7 +28,7 @@ api.add_resource(HelloWorld, '/')
 api.add_resource(RecommendList, "/fleeting/api/v1.0/recommendlist")
 api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:video_type>")
 
-api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:type>")
+# api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:type>")
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -3,7 +3,7 @@
 # from flask import Flask
 # from flask_sqlalchemy import SQLAlchemy
 
-from app import db
+# from app import db
 from flask_restful import Resource
 
 
