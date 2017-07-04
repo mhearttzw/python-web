@@ -32,7 +32,7 @@ for type_video in video_type_url:
         except:
             continue
 
-        size = int(json.loads(temp)["streams"]["__default__"]["size"] / 1024)
+        size = int(json.loads(temp)["streams"]["__default__"]["size"] / 1024/1024)
         title = res[i]['title']
         description = res[i]['description']
         cover = res[i]['titleImg']

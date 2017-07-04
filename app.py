@@ -6,6 +6,7 @@ from flask import request
 
 from models.recommend_list import RecommendList
 from models.sorted_list import SortedList
+from models.log_in import Login
 # from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -27,11 +28,11 @@ class HelloWorld(flask_restful.Resource):
 api.add_resource(HelloWorld, '/')
 api.add_resource(RecommendList, "/fleeting/api/v1.0/recommendlist")
 api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:video_type>")
-
+api.add_resource(Login, "/fleeting/api/v1.0/user/<string:type>")
 # api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.0/sortedlist/<string:type>")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
 
 
 '''
