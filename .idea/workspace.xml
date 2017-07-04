@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cbbc0fb-19fc-4f34-ac47-8aefad03d743" name="Default" comment="Using orm (flask_sqlalchemy)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d3469a95-a49c-41fb-812e-8bed5ad5ca96.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/test.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/orm/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/orm/fl_video.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/config/test.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/orm_test/sqlalchemy_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/log_in.py" afterPath="$PROJECT_DIR$/models/log_in.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" afterPath="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/recommend_list.py" afterPath="$PROJECT_DIR$/models/recommend_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_sorted_test.py" afterPath="$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_sorted_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask-0.12.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask-0.12.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask_RESTful-0.3.6.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask_RESTful-0.3.6.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask_SQLAlchemy-2.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Flask_SQLAlchemy-2.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Jinja2-2.9.6.dist-info/LICENSE.txt" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Jinja2-2.9.6.dist-info/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Jinja2-2.9.6.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Jinja2-2.9.6.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/MarkupSafe-1.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/MarkupSafe-1.0.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/PyMySQL-0.7.11.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/PyMySQL-0.7.11.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Werkzeug-0.12.2.dist-info/LICENSE.txt" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Werkzeug-0.12.2.dist-info/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Werkzeug-0.12.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/Werkzeug-0.12.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/aiomysql-0.0.9.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/aiomysql-0.0.9.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/click-6.7.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/click-6.7.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/constants.py" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/python_dateutil-2.6.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/python_dateutil-2.6.0.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/pytz-2017.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/pytz-2017.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/six-1.10.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/six-1.10.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/sorted_list.py" afterPath="$PROJECT_DIR$/models/sorted_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/database_connect.py" afterPath="$PROJECT_DIR$/tests/database_connect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,10 +37,11 @@
       <file leaf-file-name="sorted_list.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/sorted_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="-425">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
+                <marker date="1499130546906" expanded="true" signature="1085:1168" ph="SELECT id, t... " />
               </folding>
             </state>
           </provider>
@@ -83,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/orm/fl_video.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="e#105#123#0" expanded="true" />
               </folding>
@@ -94,11 +74,11 @@
       <file leaf-file-name="recommend_list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/recommend_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="760">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
-                <marker date="1499129692831" expanded="true" signature="956:1023" ph="SELECT id, t... fl_video" />
+                <marker date="1499130546914" expanded="true" signature="160:317" ph="..." />
               </folding>
             </state>
           </provider>
@@ -204,9 +184,9 @@
         <option value="$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_sorted_test.py" />
         <option value="$PROJECT_DIR$/tests/orm_test/sqlalchemy_test.py" />
         <option value="$PROJECT_DIR$/orm/fl_video.py" />
-        <option value="$PROJECT_DIR$/models/sorted_list.py" />
         <option value="$PROJECT_DIR$/models/recommend_list.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/models/sorted_list.py" />
       </list>
     </option>
   </component>
@@ -217,10 +197,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1303" />
-    <option name="height" value="780" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -546,7 +526,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21308859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -646,6 +626,7 @@
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+            <marker date="1499130546906" expanded="true" signature="1085:1168" ph="SELECT id, t... " />
           </folding>
         </state>
       </provider>
@@ -690,7 +671,7 @@
           <caret line="45" column="21" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="21" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
-            <marker date="1499129692831" expanded="true" signature="956:1023" ph="SELECT id, t... fl_video" />
+            <marker date="1499130546914" expanded="true" signature="160:317" ph="..." />
           </folding>
         </state>
       </provider>
@@ -744,7 +725,7 @@
           <caret line="45" column="21" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="21" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
-            <marker date="1499129692831" expanded="true" signature="956:1023" ph="SELECT id, t... fl_video" />
+            <marker date="1499130546914" expanded="true" signature="160:317" ph="..." />
           </folding>
         </state>
       </provider>
@@ -755,6 +736,7 @@
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+            <marker date="1499130546906" expanded="true" signature="1085:1168" ph="SELECT id, t... " />
           </folding>
         </state>
       </provider>
@@ -995,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/orm/fl_video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#105#123#0" expanded="true" />
           </folding>
@@ -1022,21 +1004,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/recommend_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="760">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
-            <marker date="1499129692831" expanded="true" signature="956:1023" ph="SELECT id, t... fl_video" />
+            <marker date="1499130546914" expanded="true" signature="160:317" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/sorted_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="-425">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+            <marker date="1499130546906" expanded="true" signature="1085:1168" ph="SELECT id, t... " />
           </folding>
         </state>
       </provider>
