@@ -13,6 +13,9 @@ class SortedList(Resource):
         "anime": "动画短片",
 
     }
+    response = {
+        "isRegisted": 1
+    }
     video_list = []
     conn = None
 
@@ -36,12 +39,14 @@ class SortedList(Resource):
             haveregisted = self.cur.fetchall()
             # 判断是否已被注册
             if len(haveregisted) is not 0:
-                return '0'
+                self.response["isRegisted"] = 0
+                return self.response
             userName = request.form['username']
             passWord = request.form['password']
             insert = "INSERT INTO fl_user(username, password) VALUES (%s, %s)"
             self.cur.execute(insert, (userName, passWord))
-            return '注册成功'
+            self.response["isRegisted"] = 1
+            return self.response
         elif type == '/user':
             query = "SELECT username FROM fl_user"
             self.cur.execute(query)

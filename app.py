@@ -6,9 +6,17 @@ from flask import request
 
 from models.recommend_list import RecommendList
 from models.sorted_list import SortedList
+# from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 api = flask_restful.Api(app)
+# mysql://username:password@server:port/db
+
+# app.config.from_pyfile('config/test.cfg')
+# db = SQLAlchemy(app)
+# from orm.fl_video import User
+# db.create_all()
+
 
 
 class HelloWorld(flask_restful.Resource):
@@ -23,6 +31,7 @@ api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 '''
 tasks = [

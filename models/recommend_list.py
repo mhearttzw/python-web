@@ -1,12 +1,14 @@
 from flask_restful import reqparse, abort, Api, Resource
 import mysql.connector
 import json
+from orm.fl_video import User
 
 
-class RecommendList(Resource):
+class RecommendList(Resource, User):
     LogInfo = {'host': '182.254.230.24', 'user': 'fleeter', 'passwd': 'hust201417',
                'port': 3306, 'charset': 'utf8', 'database': 'fleeting'}
-    video_list = []
+    # 返回数据以json格式呈现
+    video_list = {}
 
     def __init__(self):
         conn = mysql.connector.connect(host=self.LogInfo['host'], user=self.LogInfo['user'],
@@ -35,6 +37,22 @@ class RecommendList(Resource):
         conn.commit()
         conn.close()
         # self.video_list = video_info
+
+    # def get(self, User):
+    #     video_obj = User.query.all()
+    #     for i in range(len(video_obj)):
+    #         User.video_list.append({
+    #             "title1": video_obj[i].title,
+    #             "cover": video_obj[i].cover,
+    #             "description": video_obj[i].description,
+    #             "info": video_obj[i].info,
+    #             "url": video_obj[i].url,
+    #             "upload_time": video_obj[i].upload_time,
+    #             "size": video_obj[i].size,
+    #             "duration": video_obj[i].duration,
+    #             "type": video_obj[i].type
+    #         })
+    #     return self.video_list
 
     def get(self):
         # json_list = json.dumps(self.video_list)
