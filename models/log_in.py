@@ -42,12 +42,12 @@ class Login(Resource):
             # 判断是否已被注册
             if len(haveregisted) is not 0:
                 self.response["isRegisted"] = 0
-                return 1
+                return 1 #已被注册错误
             passWord = request.form['password']
             insert = "INSERT INTO fl_user(username, password) VALUES (%s, %s)"
             self.cur.execute(insert, (userName, passWord))
             self.response["isRegisted"] = 1
-            return 0
+            return 0 #成功注册
         elif type == 'login':
             userName = request.form['username']
             query = "SELECT username FROM fl_user WHERE username= %s"
@@ -56,11 +56,15 @@ class Login(Resource):
             passWord = request.form['password']
             if len(haveregisted) is not 0:
                 query = "SELECT password FROM fl_user WHERE username= %s"
-                self.cur.execute(query, (passWord,))
+                self.cur.execute(query, (userName,))
                 passWordRight = self.cur.fetchall()
                 if len(passWordRight) is not 0:
-                    print(userName+ "登录成功")
-                    return 0
+                    # query = "SELECT id FROM fl_user WHERE username = %s"
+                    # self.cur.execute(query, (userName,))
+                    # userid = self.cur.fetchall()
+                    # result = "0"
+                    print(userName + "登录成功")
+                    return 0 #登录成功返回
                 else:
                     return 1 #密码错误
             else:
