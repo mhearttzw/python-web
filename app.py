@@ -33,7 +33,7 @@ api.add_resource(SortedList, "/fleeting/api/v1.0/sortedlist", "/fleeting/api/v1.
 # 用户登录注册
 api.add_resource(Login, "/fleeting/api/v1.0/user/<string:type>")
 # 用户登录后返回收藏夹信息
-api.add_resource(Collection, "/fleeting/api/v1.0/user/collection/<string:username>")
+api.add_resource(Collection, "/fleeting/api/v1.0/user/collection", "/fleeting/api/v1.0/user/collection/<string:username>")
 
 
 if __name__ == '__main__':

@@ -1,5 +1,3 @@
-
-
 from flask import request
 from flask_restful import reqparse, abort, Api, Resource
 import mysql.connector
@@ -38,7 +36,6 @@ class Login(Resource):
             query = "SELECT username FROM fl_user WHERE username= %s"
             self.cur.execute(query, (userName,))
             haveregisted = self.cur.fetchall()
-            print(userName)
             # 判断是否已被注册
             if len(haveregisted) is not 0:
                 self.response["isRegisted"] = 0
@@ -47,6 +44,7 @@ class Login(Resource):
             insert = "INSERT INTO fl_user(username, password) VALUES (%s, %s)"
             self.cur.execute(insert, (userName, passWord))
             self.response["isRegisted"] = 1
+            print(userName+ "成功注册")
             return 0 #成功注册
         elif type == 'login':
             userName = request.form['username']
@@ -55,9 +53,10 @@ class Login(Resource):
             haveregisted = self.cur.fetchall()
             passWord = request.form['password']
             if len(haveregisted) is not 0:
-                query = "SELECT password FROM fl_user WHERE username= %s"
-                self.cur.execute(query, (userName,))
+                query = "SELECT * FROM fl_user WHERE username= %s AND password = %s"
+                self.cur.execute(query, (userName, passWord))
                 passWordRight = self.cur.fetchall()
+                print(passWord)
                 if len(passWordRight) is not 0:
                     # query = "SELECT id FROM fl_user WHERE username = %s"
                     # self.cur.execute(query, (userName,))

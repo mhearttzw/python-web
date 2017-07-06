@@ -7,7 +7,7 @@ class SortedList(Resource):
     LogInfo = {'host': '182.254.230.24', 'user': 'fleeter', 'passwd': 'hust201417',
                'port': 3306, 'charset': 'utf8', 'database': 'fleeting'}
 
-    type_dict = {"anime": "动画短片", "joy": "娱乐", "music": "音乐"}
+    type_dict = {"anime": "动画短片", "joy": "娱乐", "music": "音乐", "dance": "舞蹈", "game": "游戏"}
     video_list = []
     conn = None
     cur = None
