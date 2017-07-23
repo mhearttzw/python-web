@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cbbc0fb-19fc-4f34-ac47-8aefad03d743" name="Default" comment="Using orm (flask_sqlalchemy)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LavaFace/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LavaFace/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LavaFace/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LavaFace/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LavaFace/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataScrapy/__file_handle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataScrapy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataScrapy/dayCount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataScrapy/email_send.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/djadmin/models.py" afterPath="$PROJECT_DIR$/../LavaFace/djadmin/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/djadmin/urls.py" afterPath="$PROJECT_DIR$/../LavaFace/djadmin/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/djadmin/views.py" afterPath="$PROJECT_DIR$/../LavaFace/djadmin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/pynxl/settings.py" afterPath="$PROJECT_DIR$/../LavaFace/pynxl/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/pynxl/urls.py" afterPath="$PROJECT_DIR$/../LavaFace/pynxl/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/usercenter/models.py" afterPath="$PROJECT_DIR$/../LavaFace/usercenter/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LavaFace/usercenter/views.py" afterPath="$PROJECT_DIR$/../LavaFace/usercenter/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WebApi.iml" afterPath="$PROJECT_DIR$/.idea/WebApi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" afterPath="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/sqlalchemy/engine/__init__.py" afterPath="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/sqlalchemy/engine/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,8 +36,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_web$redWine.coverage" NAME="redWine Coverage Results" MODIFIED="1500515183932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataScrapy" />
+    <SUITE FILE_PATH="coverage/python_web$email_send.coverage" NAME="email_send Coverage Results" MODIFIED="1500707509112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataScrapy" />
     <SUITE FILE_PATH="coverage/WebApi$scrap.coverage" NAME="scrap Coverage Results" MODIFIED="1499325704465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataScrapy" />
+    <SUITE FILE_PATH="coverage/python_web$scrap.coverage" NAME="scrap Coverage Results" MODIFIED="1499388791328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataScrapy" />
     <SUITE FILE_PATH="coverage/WebApi$collection.coverage" NAME="collection Coverage Results" MODIFIED="1499243535089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/python_web$pyspider_test.coverage" NAME="pyspider_test Coverage Results" MODIFIED="1499765130080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/IDE/Pycharm/pyspider_test" />
+    <SUITE FILE_PATH="coverage/python_web$LavaFace_Dt.coverage" NAME="LavaFace Dt Coverage Results" MODIFIED="1500018844245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LavaFace" />
     <SUITE FILE_PATH="coverage/WebApi$python_web.coverage" NAME="python-web Coverage Results" MODIFIED="1499331495828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -30,7 +59,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fleeting@182.254.230.24 [2]" />
+        <option name="myItemId" value="platformAPI@116.90.85.73" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -40,159 +69,120 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fleeting@182.254.230.24 [2]" />
+        <option name="myItemId" value="platformAPI@116.90.85.73" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="fleeting" />
+        <option name="myItemId" value="platformAPI" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="LavaFace@192.168.1.123" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recommend_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/recommend_list.py">
+      <file leaf-file-name="paginator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/core/paginator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-              <folding>
-                <marker date="1499131828778" expanded="true" signature="1057:1124" ph="SELECT id, t... fl_video" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sorted_list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/sorted_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-                <marker date="1499324451097" expanded="true" signature="1114:1197" ph="SELECT id, t... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/collection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1499331110075" expanded="true" signature="1025:1056" ph="DELETE FROM " />
-                <marker date="1499331110075" expanded="true" signature="1263:1305" ph="SELECT user_... fl_user" />
-                <marker date="1499331110075" expanded="true" signature="1451:1515" ph="SELECT * FRO... fl_collection" />
-                <marker date="1499331110075" expanded="true" signature="1718:1766" ph="DELETE FROM " />
-                <marker date="1499331110075" expanded="true" signature="1718:1778" ph="DELETE FROM " />
-                <marker date="1499331110075" expanded="true" signature="1718:1779" ph="DELETE FROM " />
-                <marker date="1499331110075" expanded="true" signature="2031:2121" ph="INSERT INTO fl_collection... " />
-                <marker date="1499331110075" expanded="true" signature="2378:2420" ph="SELECT id FR... fl_user" />
-                <marker date="1499331110075" expanded="true" signature="2546:2746" ph="SELECT id, t... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fleeting.fl_user" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_user">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="24">
+              <caret line="147" column="12" lean-forward="false" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="fleeting.fl_collection" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_collection">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log_in.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/log_in.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="86">
+              <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1499311162528" expanded="true" signature="1131:1159" ph="SELECT usern... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="1131:1178" ph="SELECT usern... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="1493:1548" ph="INSERT INTO fl_user... " />
-                <marker date="1499311162528" expanded="true" signature="1815:1843" ph="SELECT usern... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="1815:1862" ph="SELECT usern... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="2076:2116" ph="SELECT passw... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="2076:2134" ph="SELECT * FRO... fl_user" />
-                <marker date="1499311162528" expanded="true" signature="2361:2403" ph="SELECT id FR... fl_user" />
+                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#1843#4134#0" expanded="false" />
+                <element signature="e#2454#2950#0" expanded="false" />
+                <element signature="e#3004#3328#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fleeting.fl_video" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_video">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getVideoUrl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataScrapy/getVideoUrl.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="676">
+              <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
-                <marker date="1499311527167" expanded="true" signature="1890:2006" ph="INSERT INTO fl_video... " />
+                <element signature="n#if#3;n#!!top" expanded="false" />
+                <element signature="n#if#4;n#!!top" expanded="false" />
+                <element signature="e#2188#2205#0#HTML" expanded="true" />
+                <element signature="n#if#6;n#!!top" expanded="false" />
+                <element signature="n#if#8;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fl_video.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orm/fl_video.py">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" column="120" lean-forward="false" selection-start-line="35" selection-start-column="120" selection-end-line="35" selection-end-column="120" />
+            <state relative-caret-position="104">
+              <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1500176478324" expanded="true" signature="12241:12483" ph="SELECT REFER... missing_value" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1220">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,21 +192,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RecommendList</find>
-      <find>=</find>
-      <find>self.</find>
-      <find>self</find>
-      <find>U</find>
+      <find>model.</find>
+      <find>siteinfo</find>
+      <find>MenuInfo</find>
+      <find>middl</find>
+      <find>midd</find>
+      <find>location</find>
+      <find>deb</find>
+      <find>auth</find>
+      <find>get_user_model</find>
+      <find>render</find>
+      <find>tem</find>
+      <find>viewname</find>
+      <find>main</find>
+      <find>wid</find>
+      <find>url</find>
+      <find>action</find>
+      <find>msg</find>
       <find>requests</find>
-      <find>video_type</find>
-      <find>request</find>
-      <find>video_list</find>
+      <find>sa</find>
+      <find>page_o</find>
+      <find>orde</find>
+      <find>safe</find>
+      <find>page_</find>
+      <find>get</find>
+      <find>BaseListView</find>
+      <find>get_context_data</find>
+      <find>moves</find>
+      <find>range</find>
+      <find>ordering</find>
+      <find>page_r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,11 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/__init__.py" />
-        <option value="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/connection.py" />
-        <option value="$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/conversion.py" />
-        <option value="$PROJECT_DIR$/models/log_in.oy.py" />
-        <option value="$PROJECT_DIR$/tests/coroutine_test.py" />
         <option value="$PROJECT_DIR$/config/test.cfg" />
         <option value="$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_test.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
@@ -238,11 +245,49 @@
         <option value="$PROJECT_DIR$/orm/fl_video.py" />
         <option value="$PROJECT_DIR$/models/recommend_list.py" />
         <option value="$PROJECT_DIR$/models/log_in.py" />
-        <option value="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" />
         <option value="$PROJECT_DIR$/models/sorted_list.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3469a95-a49c-41fb-812e-8bed5ad5ca96/console.sql" />
         <option value="$PROJECT_DIR$/models/collection.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/pyspider_test/tutorial.py" />
+        <option value="localhost:5000/dav/baidu_test.py" />
+        <option value="localhost:5000/dav/taobao_pic.py" />
+        <option value="$PROJECT_DIR$/../LavaFace/pynxl/wsgi.py" />
+        <option value="$PROJECT_DIR$/../LavaFace/pynxl/settings.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/templates/index.html" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/cmdb/models.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/cmdb/views.py" />
+        <option value="$PROJECT_DIR$/../LavaFace/pynxl/urls.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/url.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/admin.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templatetags/__init__.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templatetags/blogpj_py.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/comment/models.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/comment/forms.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/urls.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/comment/urls.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/comment/views.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templatetags/blogpj_tags.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/results.html" />
+        <option value="$PROJECT_DIR$/../LavaFace/djadmin/urls.py" />
+        <option value="$PROJECT_DIR$/../LavaFace/usercenter/views.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/getVideoUrl.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/tool/__file_handle.py" />
+        <option value="$USER_HOME$/yunshitu/红酒识别脚本/email.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/email.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/__file_handle.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/urls.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/__init__.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/dayCount.py" />
+        <option value="$PROJECT_DIR$/dataScrapy/email_send.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/index.html" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/static/css/custom.css" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/css/custom.css" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/settings.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/base.html" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/models.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/views.py" />
+        <option value="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/detail.html" />
       </list>
     </option>
   </component>
@@ -253,10 +298,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1303" />
-    <option name="height" value="780" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -277,6 +322,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -292,120 +338,97 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
+              <option name="myItemId" value="python-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="Django_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
+              <option name="myItemId" value="python-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="Django_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="blogpj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
+              <option name="myItemId" value="python-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="Django_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="blogpj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orm_test" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
+              <option name="myItemId" value="python-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="Django_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="blogpj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataScrapy" />
+              <option name="myItemId" value="blogpj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IDE/Pycharm/Django_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataScrapy/email_send.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://www.baidu.com" />
+      <recent name="http://localhost:5000/dav/taobao_pic.py" />
+      <recent name="http://localhost:5000/dav/baidu_test.py" />
+      <recent name="http://localhost:5000/dav/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static" />
+      <recent name="$USER_HOME$/IDE/Pycharm/Django_blog/static" />
+      <recent name="$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/blogpj" />
+      <recent name="$PROJECT_DIR$/dataScrapy/tools" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -424,26 +447,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python-web">
-    <configuration default="false" name="collection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WebApi" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/collection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Django server.Django_blog Ds">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -681,16 +685,141 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="pyspider_test" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/IDE/Pycharm/pyspider_test/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/IDE/Pycharm/pyspider_test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspider_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/IDE/Pycharm/pyspider_test/tutorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LavaFace Dt" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/yunshitu/LavaFace/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LavaFace" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LavaFace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LavaFace Ds" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="pynxl.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/yunshitu/LavaFace/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LavaFace" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Django_blog Ds" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Django_blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/IDE/Pycharm/Django_blog/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Django_blog" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="redWine" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/virtualenv-flask/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataScrapy" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebApi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataScrapy/dayCount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="email_send" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/virtualenv-flask/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataScrapy" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebApi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataScrapy/email_send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.python-web" />
       <item index="1" class="java.lang.String" itemvalue="Python.scrap" />
-      <item index="2" class="java.lang.String" itemvalue="Python.collection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pyspider_test" />
+      <item index="3" class="java.lang.String" itemvalue="Django tests.LavaFace Dt" />
+      <item index="4" class="java.lang.String" itemvalue="Django server.LavaFace Ds" />
+      <item index="5" class="java.lang.String" itemvalue="Django server.Django_blog Ds" />
+      <item index="6" class="java.lang.String" itemvalue="Python.redWine" />
+      <item index="7" class="java.lang.String" itemvalue="Python.email_send" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.collection" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -716,6 +845,11 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LavaFace_Dt - 2017.07.14 at 15h 54m 06s.xml">
+      <configuration name="LavaFace Dt" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -726,51 +860,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14844373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19074222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31782946" sideWeight="0.5059856" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16201118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34263566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3782946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37209302" sideWeight="0.50758183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08459697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34263566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4728682" sideWeight="0.4924182" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28651237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29457363" sideWeight="0.49401435" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.49082202" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19379845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2511628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2529928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -817,294 +930,217 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39920">
-          <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/recommend_list.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/comment/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <marker date="1499131828778" expanded="true" signature="1057:1124" ph="SELECT id, t... fl_video" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/sorted_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-            <marker date="1499324451097" expanded="true" signature="1114:1197" ph="SELECT id, t... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/conversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="281" column="49" lean-forward="false" selection-start-line="281" selection-start-column="49" selection-end-line="281" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/werkzeug/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="694" column="0" lean-forward="false" selection-start-line="694" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1791860668/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71360">
-          <caret line="3568" column="14" lean-forward="false" selection-start-line="3568" selection-start-column="8" selection-end-line="3568" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39420">
-          <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/flask_restful/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7720">
-          <caret line="405" column="30" lean-forward="false" selection-start-line="405" selection-start-column="30" selection-end-line="405" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/orm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/aiomysql/sa/engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpy/Lib/site-packages/mysql/connector/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="784" column="31" lean-forward="false" selection-start-line="784" selection-start-column="31" selection-end-line="784" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/aiomysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="546" column="4" lean-forward="true" selection-start-line="546" selection-start-column="4" selection-end-line="546" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpy/Lib/site-packages/mysql/connector/cursor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="868" column="8" lean-forward="false" selection-start-line="868" selection-start-column="8" selection-end-line="868" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/aiomysql/sa/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="158" column="23" lean-forward="false" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/coroutine_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/markupsafe/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="106" column="22" lean-forward="false" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/dateutil/rrule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="1153" column="22" lean-forward="false" selection-start-line="1153" selection-start-column="22" selection-end-line="1153" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="311" column="8" lean-forward="false" selection-start-line="311" selection-start-column="8" selection-end-line="311" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/config/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib64/python3.5/site-packages/werkzeug/_compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/flask_sqlalchemy_test/flask_sa_sorted_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/config/test.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/test.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/orm_test/sqlalchemy_test.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/comment/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/connector/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../LavaFace/djadmin/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="120" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataScrapy/email.py" />
+    <entry file="file://$PROJECT_DIR$/../LavaFace/djadmin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#1194#1215#0" expanded="false" />
+            <element signature="e#1420#2457#0" expanded="false" />
+            <element signature="e#1470#1670#0" expanded="false" />
+            <element signature="e#1710#2353#0" expanded="false" />
+            <element signature="e#3685#4693#0" expanded="false" />
+            <element signature="e#4770#5100#0" expanded="false" />
+            <element signature="e#5179#5990#0" expanded="false" />
+            <element signature="e#7003#7335#0" expanded="false" />
+            <element signature="e#8534#9257#0" expanded="false" />
+            <element signature="e#9356#10184#0" expanded="false" />
+            <element signature="e#10282#11402#0" expanded="false" />
+            <element signature="e#11479#12378#0" expanded="false" />
+            <element signature="e#12458#13262#0" expanded="false" />
+            <element signature="e#13355#14155#0" expanded="false" />
+            <element signature="e#14231#15285#0" expanded="false" />
+            <element signature="e#15364#16438#0" expanded="false" />
+            <element signature="e#16529#17469#0" expanded="false" />
+            <element signature="e#17560#18548#0" expanded="false" />
+            <element signature="e#18639#19720#0" expanded="false" />
+            <element signature="e#19822#20074#0" expanded="false" />
+            <element signature="e#20166#20354#0" expanded="false" />
+            <element signature="e#20401#20543#0" expanded="false" />
+            <element signature="e#20634#21651#0" expanded="false" />
+            <element signature="e#21740#24383#0" expanded="false" />
+            <element signature="e#24461#25602#0" expanded="false" />
+            <marker date="1500300180059" expanded="true" signature="21977:22310" ph="SELECT facet... facetrack" />
+            <marker date="1500300180059" expanded="true" signature="22419:22745" ph="SELECT facet... facetrack" />
+            <marker date="1500300180059" expanded="true" signature="31340:31498" ph="select date(... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/__init__.py">
+    <entry file="file:///usr/lib/python3.5/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="432" column="8" lean-forward="false" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
+          <folding>
+            <element signature="e#1341#1354#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/email/mime/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2120">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/email/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="209" column="31" lean-forward="false" selection-start-line="209" selection-start-column="31" selection-end-line="209" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LavaFace/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/settings.py">
+    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/mysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_category">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/urls.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_comment">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/dataScrapy/getVideoUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <marker date="1499388780126" expanded="true" signature="1890:2006" ph="INSERT INTO fl_video... " />
+          </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/comment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/markdown/extensions/toc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="265" column="6" lean-forward="false" selection-start-line="265" selection-start-column="6" selection-end-line="265" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24ab8ff5-c456-457b-9a31-1a28f656b93a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/comment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataScrapy/email_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataScrapy/__file_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,150 +1148,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_video_category">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3469a95-a49c-41fb-812e-8bed5ad5ca96/console.sql">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_user">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/dataScrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_collection">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="e#1512#2029#0" expanded="false" />
+            <element signature="e#2087#2371#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d555ea60/d3469a95-a49c-41fb-812e-8bed5ad5ca96/fleeting.fl_video">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/recommend_list.py">
+    <entry file="file://$PROJECT_DIR$/dataScrapy/dayCount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding>
-            <marker date="1499131828778" expanded="true" signature="1057:1124" ph="SELECT id, t... fl_video" />
+            <element signature="e#2171#4224#0" expanded="false" />
+            <marker date="1500707508901" expanded="true" signature="539:704" ph="SELECT resul... api_log" />
+            <marker date="1500707508901" expanded="true" signature="812:970" ph="SELECT COUNT... api_log" />
+            <marker date="1500707508901" expanded="true" signature="1086:1281" ph="SELECT MAX(c... api_log" />
+            <marker date="1500707508901" expanded="true" signature="2468:2633" ph="SELECT resul... api_log" />
+            <marker date="1500707508901" expanded="true" signature="2741:2899" ph="SELECT COUNT... api_log" />
+            <marker date="1500707508901" expanded="true" signature="3015:3210" ph="SELECT MAX(c... api_log" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/collection.py">
+    <entry file="file:///usr/lib/python3.5/functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1499331110075" expanded="true" signature="1025:1056" ph="DELETE FROM " />
-            <marker date="1499331110075" expanded="true" signature="1263:1305" ph="SELECT user_... fl_user" />
-            <marker date="1499331110075" expanded="true" signature="1451:1515" ph="SELECT * FRO... fl_collection" />
-            <marker date="1499331110075" expanded="true" signature="1718:1766" ph="DELETE FROM " />
-            <marker date="1499331110075" expanded="true" signature="1718:1778" ph="DELETE FROM " />
-            <marker date="1499331110075" expanded="true" signature="1718:1779" ph="DELETE FROM " />
-            <marker date="1499331110075" expanded="true" signature="2031:2121" ph="INSERT INTO fl_collection... " />
-            <marker date="1499331110075" expanded="true" signature="2378:2420" ph="SELECT id FR... fl_user" />
-            <marker date="1499331110075" expanded="true" signature="2546:2746" ph="SELECT id, t... " />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#799#1806#0" expanded="false" />
+            <element signature="e#1844#1957#0" expanded="false" />
+            <element signature="e#3037#3163#0" expanded="false" />
+            <element signature="e#3294#3523#0" expanded="false" />
+            <element signature="e#3569#3716#0" expanded="false" />
+            <element signature="e#3757#3926#0" expanded="false" />
+            <element signature="e#3988#4292#0" expanded="false" />
+            <element signature="e#5471#6286#0" expanded="false" />
+            <element signature="e#6511#7437#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/log_in.py">
+    <entry file="file://$PROJECT_DIR$/virtualenv-flask/lib/python3.5/site-packages/werkzeug/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="1377" column="8" lean-forward="false" selection-start-line="1377" selection-start-column="8" selection-end-line="1377" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/utils/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="243" column="25" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="25" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1499311162528" expanded="true" signature="1131:1159" ph="SELECT usern... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="1131:1178" ph="SELECT usern... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="1493:1548" ph="INSERT INTO fl_user... " />
-            <marker date="1499311162528" expanded="true" signature="1815:1843" ph="SELECT usern... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="1815:1862" ph="SELECT usern... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="2076:2116" ph="SELECT passw... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="2076:2134" ph="SELECT * FRO... fl_user" />
-            <marker date="1499311162528" expanded="true" signature="2361:2403" ph="SELECT id FR... fl_user" />
+            <element signature="e#4649#6460#0" expanded="false" />
+            <element signature="e#11324#11385#0" expanded="false" />
+            <element signature="e#11421#12823#0" expanded="false" />
+            <element signature="e#13230#13291#0" expanded="false" />
+            <element signature="e#13327#13519#0" expanded="false" />
+            <element signature="e#13928#13991#0" expanded="false" />
+            <element signature="e#14029#16271#0" expanded="false" />
+            <element signature="e#16697#16761#0" expanded="false" />
+            <element signature="e#16800#17051#0" expanded="false" />
+            <element signature="e#17488#17555#0" expanded="false" />
+            <element signature="e#17597#17676#0" expanded="false" />
+            <element signature="e#18130#18644#0" expanded="false" />
+            <element signature="e#18785#18858#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataScrapy/getVideoUrl.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1096684173/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <marker date="1499311527167" expanded="true" signature="1890:2006" ph="INSERT INTO fl_video... " />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="2812" column="58" lean-forward="true" selection-start-line="2812" selection-start-column="58" selection-end-line="2812" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orm/fl_video.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/core/paginator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" column="120" lean-forward="false" selection-start-line="35" selection-start-column="120" selection-end-line="35" selection-end-column="120" />
+        <state relative-caret-position="24">
+          <caret line="147" column="12" lean-forward="false" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/css/pace.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="907" column="5" lean-forward="false" selection-start-line="907" selection-start-column="5" selection-end-line="907" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/blogpj/img/me.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/blogpj/css/pace.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/static/blogpj/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/Django_blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/static/blogpj/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#1843#4134#0" expanded="false" />
+            <element signature="e#2454#2950#0" expanded="false" />
+            <element signature="e#3004#3328#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/sorted_list.py">
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="-1220">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
-            <marker date="1499324451097" expanded="true" signature="1114:1197" ph="SELECT id, t... " />
+            <element signature="n#if#3;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#!!top" expanded="false" />
+            <element signature="e#2188#2205#0#HTML" expanded="true" />
+            <element signature="n#if#6;n#!!top" expanded="false" />
+            <element signature="n#if#8;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/templates/blogpj/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding>
+            <marker date="1500176478324" expanded="true" signature="12241:12483" ph="SELECT REFER... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IDE/Pycharm/Django_blog/blogpj/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

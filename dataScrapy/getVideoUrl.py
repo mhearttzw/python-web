@@ -10,7 +10,7 @@ conn = mysql.connector.connect(host=database, user='fleeter', passwd='hust201417
 cur = conn.cursor()
 
 # Choose type TODO: Add more types and urls
-video_type_url = {"娱乐": "http://www.acfun.cn/rank.aspx?channelId=60&range=1&count=30&ext=1&date=",
+video_type_url = {"娱乐": "http://www.acfun.cn/rank.aspx?channelId=86&range=1&count=30&ext=1&date=",
                   "动画短片": "http://www.acfun.cn/rank.aspx?channelId=106&range=3&count=30&ext=1&date=",
                   "音乐": "http://www.acfun.cn/rank.aspx?channelId=137&range=1&count=30&ext=1&date=",
                   "游戏": "http://www.acfun.cn/rank.aspx?channelId=85&range=1&count=30&ext=1&date=",
